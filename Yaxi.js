@@ -91,17 +91,17 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+var join = client.channels.get("1000840392293490811")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
 client.on("message" , message => {
  
-if(message.channel.type === 'dm') {
+if(message.channel.type === '1000840368515993691') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`https://discord.gg/5znMurcGpm`)/// لینکە سیرڤەرە خۆت
  
   client.channels.get("id text").send(
 `> Nerdra la layan <@${message.author.id}> 
